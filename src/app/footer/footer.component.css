@@ -1,0 +1,45 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.footer{
+    background-color: #000;
+}
+
+.footer h2{
+        color: #e74c3c;
+        text-align: center;
+        padding: 20px;
+}
+
+.footer img{
+        
+     
+        padding: 10px;
+        
+}
+
+
+.image{
+   text-align: center;
+   padding: 20px;
+   margin-bottom: 10px;
+   
+ 
+}
+
+.image img{
+         
+         justify-content: space-between;
+         margin: 0px 10px;
+         cursor: pointer;
+         
+}
+
+.image img:hover{
+        background-color: #fff;
+        transition: 0.5s;
+        border-radius: 10px;
+}

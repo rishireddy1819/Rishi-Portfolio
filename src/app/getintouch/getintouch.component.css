@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.get-in-touch{
+    align-items: center;
+    text-align: center;
+    color: #fff;  
+    padding: 50px 120px;   
+}
+
+
+.get-columns{
+               display: flex;
+               flex-basis: 50%;
+               align-items: center;
+               justify-content: space-between;
+               flex-wrap: nowrap;
+               
+               
+}
+
+.get-columns img{
+                   align-items: center;
+                   text-align: center;
+                   padding: 40px;
+                   margin: 30px;
+}
+
+.get-left-columns{
+                    flex-basis: 50%;
+}
+
+
+.get-right-columns{
+                      align-items: center;
+                      text-align: center;
+                      margin-right: 250px;
+                      
+}
+
+.get-right-columns h2{
+                          margin: 20px;
+                          
+}
+
+.get-right-columns form input{
+                            padding: 10px;
+                            border: 1px solid black;
+                            border-radius: 5px;
+                            width: 350px;
+                            margin-bottom: 10px;
+                            
+}
+
+.get-right-columns textarea{
+                               border-radius: 5px;
+                               padding: 10px;
+                               width: 350px;
+}
+
+
+
+.touch-container{
+                       background: linear-gradient(155deg,#e74c3c 42%, white 0%);
+                    
+}
+
+#submit{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: tomato;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 80px;
+    
+}

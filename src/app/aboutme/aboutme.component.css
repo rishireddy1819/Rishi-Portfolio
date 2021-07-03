@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abt{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    color: tomato;
+}
+
+#who{
+  color: black;
+}
+
+
+.text p{
+      text-align: left;
+}
+
+.row{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.text-left{
+        flex-basis: 50%;
+
+}
+
+.text-left img{
+       width: 100%;
+       padding: 50px;
+}
+
+
+
+.text-right{
+         font-size: 15px;
+         text-align: left;
+         flex-basis: 50%;
+}
+
+.text-right h3{
+              font-size: 30px;
+              margin: 20px 0px;
+           
+}
+
+.text-right span{
+             color: tomato;
+             
+}
+
+.btn{
+          border: none;
+          border-radius: 5px;
+          padding: 10px;
+          color: #fff;
+          background-color: tomato;
+          cursor: pointer;
+          margin-top: 20px;
+          
+}
